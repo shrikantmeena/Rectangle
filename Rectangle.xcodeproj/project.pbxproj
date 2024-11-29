@@ -147,6 +147,7 @@
 		D0CFE33327A8CCB1004DA47B /* TopRightThirdCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CFE33227A8CCB1004DA47B /* TopRightThirdCalculation.swift */; };
 		D0CFE33527A8CD16004DA47B /* BottomLeftThirdCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CFE33427A8CD16004DA47B /* BottomLeftThirdCalculation.swift */; };
 		D0CFE33727A8CD51004DA47B /* BottomRightThirdCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CFE33627A8CD51004DA47B /* BottomRightThirdCalculation.swift */; };
+		D3D2D9892CFA15DC00F1AF3E /* CenterMiddleCalculation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D2D9882CFA15DC00F1AF3E /* CenterMiddleCalculation.swift */; };
 		FDE8FCE027C2950400EACCAA /* MultiWindowManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE8FCDF27C2950400EACCAA /* MultiWindowManager.swift */; };
 /* End PBXBuildFile section */
 
@@ -323,6 +324,7 @@
 		D0CFE33227A8CCB1004DA47B /* TopRightThirdCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRightThirdCalculation.swift; sourceTree = "<group>"; };
 		D0CFE33427A8CD16004DA47B /* BottomLeftThirdCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomLeftThirdCalculation.swift; sourceTree = "<group>"; };
 		D0CFE33627A8CD51004DA47B /* BottomRightThirdCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomRightThirdCalculation.swift; sourceTree = "<group>"; };
+		D3D2D9882CFA15DC00F1AF3E /* CenterMiddleCalculation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterMiddleCalculation.swift; sourceTree = "<group>"; };
 		FDE8FCDF27C2950400EACCAA /* MultiWindowManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiWindowManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -400,75 +402,76 @@
 		982140E922B7DA3100ABFB3F /* WindowCalculation */ = {
 			isa = PBXGroup;
 			children = (
-				98A009AA2512491300CFBF0C /* CenterHalfCalculation.swift */,
-				98A009AC2512498000CFBF0C /* FirstFourthCalculation.swift */,
-				98FD7C5E2687BC14009E9DAF /* FirstThreeFourthsCalculation.swift */,
-				98FD7C602687BCB6009E9DAF /* LastThreeFourthsCalculation.swift */,
-				98A009AE2512517900CFBF0C /* SecondFourthCalculation.swift */,
-				98A009B0251252C900CFBF0C /* ThirdFourthCalculation.swift */,
-				98A009B22512536800CFBF0C /* LastFourthCalculation.swift */,
-				98A009B42512537800CFBF0C /* TopLeftSixthCalculation.swift */,
-				98A009B62512538200CFBF0C /* TopCenterSixthCalculation.swift */,
-				98A009B82512538D00CFBF0C /* TopRightSixthCalculation.swift */,
-				98A009BA2512539900CFBF0C /* BottomLeftSixthCalculation.swift */,
+				988D067C22EB4E17004EABD7 /* AlmostMaximizeCalculation.swift */,
+				6490B39C27BF984D0056C220 /* BottomCenterLeftEighthCalculation.swift */,
+				D04CE30D27817AB500BD47B3 /* BottomCenterNinthCalculation.swift */,
+				6490B39E27BF98840056C220 /* BottomCenterRightEighthCalculation.swift */,
 				98A009BC251253A000CFBF0C /* BottomCenterSixthCalculation.swift */,
-				98A009BE251253AB00CFBF0C /* BottomRightSixthCalculation.swift */,
-				9824704822B189250037B409 /* WindowCalculation.swift */,
-				9824705022B28D7A0037B409 /* LeftRightHalfCalculation.swift */,
 				9821402022B3884600ABFB3F /* BottomHalfCalculation.swift */,
-				9821403022B38A0500ABFB3F /* TopHalfCalculation.swift */,
+				6490B39027BF907A0056C220 /* BottomLeftEighthCalculation.swift */,
+				D04CE30B27817AA900BD47B3 /* BottomLeftNinthCalculation.swift */,
+				98A009BA2512539900CFBF0C /* BottomLeftSixthCalculation.swift */,
+				D0CFE33427A8CD16004DA47B /* BottomLeftThirdCalculation.swift */,
+				6490B3A027BF98C70056C220 /* BottomRightEighthCalculation.swift */,
+				D04CE30F27817ABE00BD47B3 /* BottomRightNinthCalculation.swift */,
+				98A009BE251253AB00CFBF0C /* BottomRightSixthCalculation.swift */,
+				D0CFE33627A8CD51004DA47B /* BottomRightThirdCalculation.swift */,
 				9821402222B3886100ABFB3F /* CenterCalculation.swift */,
+				98A009AA2512491300CFBF0C /* CenterHalfCalculation.swift */,
+				D3D2D9882CFA15DC00F1AF3E /* CenterMiddleCalculation.swift */,
 				729E0A972AFF76B1006E2F48 /* CenterProminentlyCalculation.swift */,
-				9821402422B3887200ABFB3F /* MaximizeCalculation.swift */,
+				988D066422EB4CB5004EABD7 /* CenterThirdCalculation.swift */,
 				9821402622B3888100ABFB3F /* ChangeSizeCalculation.swift */,
+				B4521F922BD7CEFB00FD43CC /* ChangeWindowDimensionCalculation.swift */,
+				6490B39227BF90F90056C220 /* EighthsRepeated.swift */,
+				98A009AC2512498000CFBF0C /* FirstFourthCalculation.swift */,
+				988D066022EB4C7C004EABD7 /* FirstThirdCalculation.swift */,
+				98FD7C5E2687BC14009E9DAF /* FirstThreeFourthsCalculation.swift */,
+				988D066222EB4CA5004EABD7 /* FirstTwoThirdsCalculation.swift */,
+				98C6DEEF23CE191700CC0C1E /* GapCalculation.swift */,
 				B4780A312BD4C75900732B9E /* HalfOrDoubleDimensionCalculation.swift */,
+				D0423D8227A8D31D008A4894 /* HorizontalThirdsRepeated.swift */,
+				98A009B22512536800CFBF0C /* LastFourthCalculation.swift */,
+				988D066822EB4CCB004EABD7 /* LastThirdCalculation.swift */,
+				98FD7C602687BCB6009E9DAF /* LastThreeFourthsCalculation.swift */,
+				988D066622EB4CC0004EABD7 /* LastTwoThirdsCalculation.swift */,
+				9824705022B28D7A0037B409 /* LeftRightHalfCalculation.swift */,
+				AA69F83F2992DCB1001A81AF /* LeftTodoCalculation.swift */,
 				9821402822B3889100ABFB3F /* LowerLeftCalculation.swift */,
 				9821402A22B388A000ABFB3F /* LowerRightCalculation.swift */,
-				9821403222B38A1B00ABFB3F /* UpperLeftCalculation.swift */,
-				9821403422B38A2B00ABFB3F /* UpperRightCalculation.swift */,
+				9821402422B3887200ABFB3F /* MaximizeCalculation.swift */,
 				9821403622B3D16700ABFB3F /* MaximizeHeightCalculation.swift */,
-				988D066022EB4C7C004EABD7 /* FirstThirdCalculation.swift */,
-				988D066222EB4CA5004EABD7 /* FirstTwoThirdsCalculation.swift */,
-				988D066422EB4CB5004EABD7 /* CenterThirdCalculation.swift */,
-				988D066622EB4CC0004EABD7 /* LastTwoThirdsCalculation.swift */,
-				988D066822EB4CCB004EABD7 /* LastThirdCalculation.swift */,
+				D04CE30727817A9200BD47B3 /* MiddleCenterNinthCalculation.swift */,
+				D04CE30527817A8400BD47B3 /* MiddleLeftNinthCalculation.swift */,
+				D04CE30927817A9F00BD47B3 /* MiddleRightNinthCalculation.swift */,
 				988D067E22EB4EDE004EABD7 /* MoveLeftRightCalculation.swift */,
 				988D068222EB4EF3004EABD7 /* MoveUpDownCalculation.swift */,
-				988D067C22EB4E17004EABD7 /* AlmostMaximizeCalculation.swift */,
 				98C1008D230B9EF6006E5344 /* NextPrevDisplayCalculation.swift */,
-				98FA9496235A2D7600F95C4F /* RepeatedExecutionsCalculation.swift */,
-				98C6DEEF23CE191700CC0C1E /* GapCalculation.swift */,
-				9851A5C2251BEBA300ECF78C /* OrientationAware.swift */,
-				98A6EDDC251F3F4A00F74B10 /* SixthsRepeated.swift */,
-				866661F1257D248A00A9CD2D /* RepeatedExecutionsInThirdsCalculation.swift */,
-				30166BCF24F27D6A00A38608 /* SpecifiedCalculation.swift */,
 				D04CE31127817C9B00BD47B3 /* NinthsRepeated.swift */,
-				D04CE2FF2781794E00BD47B3 /* TopLeftNinthCalculation.swift */,
-				D04CE30127817A6100BD47B3 /* TopCenterNinthCalculation.swift */,
-				D04CE30327817A6F00BD47B3 /* TopRightNinthCalculation.swift */,
-				D04CE30527817A8400BD47B3 /* MiddleLeftNinthCalculation.swift */,
-				D04CE30727817A9200BD47B3 /* MiddleCenterNinthCalculation.swift */,
-				D04CE30927817A9F00BD47B3 /* MiddleRightNinthCalculation.swift */,
-				D04CE30B27817AA900BD47B3 /* BottomLeftNinthCalculation.swift */,
-				D04CE30D27817AB500BD47B3 /* BottomCenterNinthCalculation.swift */,
-				D04CE30F27817ABE00BD47B3 /* BottomRightNinthCalculation.swift */,
-				D0CFE33027A8CAED004DA47B /* TopLeftThirdCalculation.swift */,
-				D0CFE33227A8CCB1004DA47B /* TopRightThirdCalculation.swift */,
-				D0CFE33427A8CD16004DA47B /* BottomLeftThirdCalculation.swift */,
-				D0CFE33627A8CD51004DA47B /* BottomRightThirdCalculation.swift */,
-				D0423D8227A8D31D008A4894 /* HorizontalThirdsRepeated.swift */,
-				6490B39227BF90F90056C220 /* EighthsRepeated.swift */,
-				6490B39427BF96880056C220 /* TopLeftEighthCalculation.swift */,
-				6490B39627BF96EA0056C220 /* TopCenterLeftEighthCalculation.swift */,
-				6490B39827BF97BB0056C220 /* TopCenterRightEighthCalculation.swift */,
-				6490B39A27BF980F0056C220 /* TopRightEighthCalculation.swift */,
-				6490B39027BF907A0056C220 /* BottomLeftEighthCalculation.swift */,
-				6490B39C27BF984D0056C220 /* BottomCenterLeftEighthCalculation.swift */,
-				6490B39E27BF98840056C220 /* BottomCenterRightEighthCalculation.swift */,
-				6490B3A027BF98C70056C220 /* BottomRightEighthCalculation.swift */,
+				9851A5C2251BEBA300ECF78C /* OrientationAware.swift */,
+				98FA9496235A2D7600F95C4F /* RepeatedExecutionsCalculation.swift */,
+				866661F1257D248A00A9CD2D /* RepeatedExecutionsInThirdsCalculation.swift */,
 				AA69F83B29909A95001A81AF /* RightTodoCalculation.swift */,
-				AA69F83F2992DCB1001A81AF /* LeftTodoCalculation.swift */,
-				B4521F922BD7CEFB00FD43CC /* ChangeWindowDimensionCalculation.swift */,
+				98A009AE2512517900CFBF0C /* SecondFourthCalculation.swift */,
+				98A6EDDC251F3F4A00F74B10 /* SixthsRepeated.swift */,
+				30166BCF24F27D6A00A38608 /* SpecifiedCalculation.swift */,
+				98A009B0251252C900CFBF0C /* ThirdFourthCalculation.swift */,
+				6490B39627BF96EA0056C220 /* TopCenterLeftEighthCalculation.swift */,
+				D04CE30127817A6100BD47B3 /* TopCenterNinthCalculation.swift */,
+				6490B39827BF97BB0056C220 /* TopCenterRightEighthCalculation.swift */,
+				98A009B62512538200CFBF0C /* TopCenterSixthCalculation.swift */,
+				9821403022B38A0500ABFB3F /* TopHalfCalculation.swift */,
+				6490B39427BF96880056C220 /* TopLeftEighthCalculation.swift */,
+				D04CE2FF2781794E00BD47B3 /* TopLeftNinthCalculation.swift */,
+				98A009B42512537800CFBF0C /* TopLeftSixthCalculation.swift */,
+				D0CFE33027A8CAED004DA47B /* TopLeftThirdCalculation.swift */,
+				6490B39A27BF980F0056C220 /* TopRightEighthCalculation.swift */,
+				D04CE30327817A6F00BD47B3 /* TopRightNinthCalculation.swift */,
+				98A009B82512538D00CFBF0C /* TopRightSixthCalculation.swift */,
+				D0CFE33227A8CCB1004DA47B /* TopRightThirdCalculation.swift */,
+				9821403222B38A1B00ABFB3F /* UpperLeftCalculation.swift */,
+				9821403422B38A2B00ABFB3F /* UpperRightCalculation.swift */,
+				9824704822B189250037B409 /* WindowCalculation.swift */,
 			);
 			path = WindowCalculation;
 			sourceTree = "<group>";
@@ -713,7 +716,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
 				LastSwiftUpdateCheck = 1020;
-				LastUpgradeCheck = 1500;
+				LastUpgradeCheck = 1610;
 				ORGANIZATIONNAME = "Ryan Hanson";
 				TargetAttributes = {
 					9821403B22B3EBD900ABFB3F = {
@@ -866,6 +869,7 @@
 				AA0AC002291C1B9100D125D2 /* AXExtension.swift in Sources */,
 				98D16A442592AD55005228CB /* MASShortcutMigration.swift in Sources */,
 				988D066522EB4CB6004EABD7 /* CenterThirdCalculation.swift in Sources */,
+				D3D2D9892CFA15DC00F1AF3E /* CenterMiddleCalculation.swift in Sources */,
 				D04CE30827817A9200BD47B3 /* MiddleCenterNinthCalculation.swift in Sources */,
 				98A009BD251253A000CFBF0C /* BottomCenterSixthCalculation.swift in Sources */,
 				6490B39F27BF98840056C220 /* BottomCenterRightEighthCalculation.swift in Sources */,
@@ -1030,7 +1034,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.knollsoft.RectangleLauncher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1051,14 +1055,14 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = XSYZ3E4B7D;
+				DEVELOPMENT_TEAM = QX2Y4ZW7Z6;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = RectangleLauncher/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.knollsoft.RectangleLauncher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1214,7 +1218,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 0.85;
 				PRODUCT_BUNDLE_IDENTIFIER = com.knollsoft.Rectangle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1237,14 +1241,14 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 91;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = XSYZ3E4B7D;
+				DEVELOPMENT_TEAM = QX2Y4ZW7Z6;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = Rectangle/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				MARKETING_VERSION = 0.85;
 				PRODUCT_BUNDLE_IDENTIFIER = com.knollsoft.Rectangle;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1258,7 +1262,6 @@
 		9824702822AF9B7E0037B409 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
@@ -1271,7 +1274,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.ryanhanson.RectangleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1283,20 +1286,19 @@
 		9824702922AF9B7E0037B409 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = XSYZ3E4B7D;
+				DEVELOPMENT_TEAM = QX2Y4ZW7Z6;
 				INFOPLIST_FILE = RectangleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_BUNDLE_IDENTIFIER = dev.ryanhanson.RectangleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";

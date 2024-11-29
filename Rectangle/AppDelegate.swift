@@ -171,14 +171,13 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         }
         
         for name in problemJavaAppNames {
-            if let path = NSWorkspace.shared.fullPath(forApplication: name) {
-                if let bundle = Bundle(path: path),
-                   let bundleId = bundle.bundleIdentifier {
-                    
-                    if !applicationToggle.isDisabled(bundleId: bundleId),
-                       bundleId.starts(with: "com.install4j") {
-                        problemBundles.append(bundle)
-                    }
+            if let appURL = NSWorkspace.shared.urlForApplication(withBundleIdentifier: name),
+               let bundle = Bundle(url: appURL),
+               let bundleId = bundle.bundleIdentifier {
+                
+                if !applicationToggle.isDisabled(bundleId: bundleId),
+                   bundleId.starts(with: "com.install4j") {
+                    problemBundles.append(bundle)
                 }
             }
         }

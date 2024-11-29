@@ -36,7 +36,18 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             components.append("MacOS")
             components.append("Rectangle")
             let newPath = NSString.path(withComponents: components)
-            NSWorkspace.shared.launchApplication(newPath)
+            
+            let appURL = URL(fileURLWithPath: newPath)
+
+            NSWorkspace.shared.openApplication(at: appURL,
+                                               configuration: NSWorkspace.OpenConfiguration(),
+                                               completionHandler: { app, error in
+                if let error = error {
+                    print("Failed to launch application: \(error)")
+                } else if let app = app {
+                    print("Successfully launched application: \(app.localizedName ?? "Unknown App")")
+                }
+            })
         }
     }
     

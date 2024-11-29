@@ -31320,6 +31320,18 @@
         }
       }
     },
+    "NxG-54-Bgk.title" : {
+      "comment" : "Class = \"NSTextFieldCell\"; title = \"Center Middle\"; ObjectID = \"NxG-54-Bgk\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Center Middle"
+          }
+        }
+      }
+    },
     "o6e-r0-MWq.title" : {
       "comment" : "Class = \"NSMenuItem\"; title = \"Ligatures\"; ObjectID = \"o6e-r0-MWq\";",
       "extractionState" : "manual",
